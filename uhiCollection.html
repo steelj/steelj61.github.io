@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Urban Heat Melbourne</title>
+</head>
+
+<header>
+    <nav id="navbar" class="navbar" role="navigation" data-mobile="false">
+        <button id="navbar-toggle" class="navbar-toggle" type="button" aria-controls="navbar-menu"
+            aria-label="Toggle menu" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul id="nav-link-container" class="nav-link-container">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="index.html#portfolio" class="nav-link">Projects</a></li>
+            <li><a href="index.html#resume" class="nav-link">Resume</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<a href="#portfolio" id="nav-scroll-button">
+    <span> >>> </span>
+</a>
+
+<body>
+    <section id="home">
+        <div id="home-left">
+            <!--        <div class="name-big-font">Hi,</div>-->
+            <!--        <div id="hacker-name" class="name-big-font">My name is 1337D0xer!</div>-->
+            <!--        <div id="name-description" class="name-big-font">and I am a-->
+            <!--            <span class="name-big-font">Programmer_</span>-->
+            <!--        </div>-->
+            <div id="hacker-name" class="name-big-font">Urban Heat Melbourne: urban heat islands and urbanisation
+            </div>
+        </div>
+        <div id="home-right">
+            <div id="uhi-right-bg"></div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="name-big-font">-- Final Year Major Project --</div>
+    </section>
+    <br />
+    <div class="blurb">
+        <p>This study aims to examine the patterns of urbanisation and UHI distribution in Melbourne from 2001-2020 in
+            order to see the changes that have occurred over an extensive period of time. These changes will be explored
+            in relation to each other in order to drive the association of these two potentially phenomena factors on
+            the Metropolitan area of Melbourne. A geospatial approach will be used throughout this paper, utilising
+            cloud computing, remote sensing, and spatial analysis. UHIs will be derived from satellite imagery, while
+            NDVI and NDBI will be used as measures of urbanisation by measuring vegetation health and built-up level
+            respectively, as well as being combined in the form of the Built-Up Index (BUI). </p>
+        <br />
+        <p>
+            This study focuses on the interaction of surface temperatures and the urban environment in the metropolitan
+            region of Melbourne, Australia. Melbourne is the business and administration capital of the state of
+            Victoria, with an associated population of 5 159 211 during the 2019-2020 financial year (Australian Bureau
+            of Statistics 2021), and has an extent of 9992.5 km2 as of 2016 (City of Melbourne 2021).
+            Urbanisation is of particular concern in Melbourne as from July 1 2019 to June 30 2020, Melbourne
+            experienced a population growth of 80,100 people (a growth rate of 1.6%), firmly cementing the city as the
+            second most populous in the country (Australian Bureau of Statistics 2021). It is projected that this number
+            will have increased to over 9 million by 2056 (DELWP 2019). Adding to the concern of urbanisation is the
+            occurrence of high temperatures within the city. In 2020 Melbourne’s mean temperature was 19.0°C, with a
+            maximum recorded reading of 42.9°C on January 31st. This temperature was recorded following a period of
+            extreme warm temperatures across south-eastern Australia, where towards the end of January temperatures were
+            recorded at 40°C or above almost daily in Melbourne, with temperature records set across both the state and
+            country (Bureau of Meteorology 2021).
+            With increasing urban populations as well as experiencing high temperatures and record heat waves, Melbourne
+            has become an important study area for research into the relationship between natural and built
+            environments.
+
+        </p>
+        <br/>
+        <p>The results of this study are to be finalised, but some preliminary results are included below.</p>
+
+        <br />
+
+        <h1> LST, NDBI and NDVI</h1>
+
+        <br />
+        <div class="row">
+            <div class="column">
+                <img src="images/temp.jpg" alt="methods" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/urbanisation.jpg" alt="fire response times" style="width:100%">
+            </div>
+        </div>
+        <p>A more deatiled look at the land surface temperature of Melbourne can be observed from the interactive maps below. These maps formed part of a an interactive website (see below image).</p>
+        <br/>
+        <h1> Interactive Maps</h1>
+        <br/>
+        <div class="row">
+            <div class="column">
+                <iframe width="100%" height="520" frameborder="0" src="https://steelj61.carto.com/builder/57e7ea28-afed-4a8e-aa80-56a47ef63e41/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+            <div class="column">
+                <iframe width="100%" height="520" frameborder="0" src="https://steelj61.carto.com/builder/ae430d7f-fcba-4d51-98bb-ecbbbb813749/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+        </div>
+
+        </section>
+        <h1> Interactive Website</h1>
+        <br/>
+        <img src="images/website.png" style="width: 100%;height:20%;"class="center-image" >
+        <br />
+        <br />
+ <!-- Main javascript file -->
+ <script src="js/index.js"></script>
+</body>
+
+</html>
